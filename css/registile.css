@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Aref Ruqaa Ink', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(27deg, #5d345e 50%, #853f84 50%);
+
+}
+
+.for-body{
+    width: 400px;
+    min-width: 300px;
+    border-radius: 10px;
+    border: solid 2px #8f3188;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin: 10px;
+    border: 2px solid #ac38a5;
+}
+
+.form-body img{
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    object-fit: cover;
+    
+
+}
+
+.text{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:#8f2c75 ;
+    margin-bottom: 25px;
+}
+
+.form-body input{
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 75%;
+    padding-left: 10px;
+    color: rgb(183, 123, 165);
+    border: 1px solid #fff;
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.form-body input[type="password"]{
+    margin-top: 20px;
+
+}
+
+::placeholder{
+    font-size: 14px;
+    color: rgba(194, 72, 155, 0.596);
+}
+
+.form-body input:hover{
+    transition: .5s;
+    border: 1px solid #7c3563;
+    color: #913a7e;
+}
+
+.form-body button{
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 78%;
+    background: transparent;
+    color: #b86993;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid #9b3986;
+    transition: all .5s ease;
+}
+
+.form-body button:hover{
+    color: #c493b8;
+    border: 2px solid #883a79;
+    background:linear-gradient(#66295c ,#661551);
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #8f2c75;
+    padding: 20px;
+    margin-right: 10px;
+    font-size: 20px;
+}

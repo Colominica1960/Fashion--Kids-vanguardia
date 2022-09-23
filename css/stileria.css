@@ -1,0 +1,107 @@
+*{
+    box-sizing:border-box ;
+}
+
+nav>a {
+    color: rgb(12, 8, 11);
+    font-weight: 300;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+
+body{
+    font-family: 'Aref Ruqaa Ink', serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(150, 22, 140);
+}
+
+h1{
+    font-size: 45px;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.column{
+    flex: 25%;
+    padding: 5px;
+}
+.column img{
+    margin-top: 5px;
+}
+
+
+
+h2{
+    font-size: 40px;
+    font-weight: 300;
+    color: rgb(18, 9, 15);
+    text-align: center;
+    font-family: 'Aref Ruqaa Ink', serif;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards .card {
+    background: hsla(273, 91%, 27%, 0.566);
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgb(0, 0, 0, .6);
+}
+
+.cards .card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid rgb(135, 20, 118);
+    border-radius: 50%;
+    display: block;
+}
+
+.cards .card>.contenido-tet-card {
+    width: 60%;
+    color: rgb(16, 13, 14);
+
+}
+
+footer {
+    background-color: #800080;
+    padding: 50px 0 30px 0;
+    margin-top: 25px;
+    overflow: hidden;
+    border: 3px solid rgb(160, 93, 185)
+} 
+
+.titulo-final {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #000;
+}
+
+
+@media (max-width: 800px) {
+    .column {
+        flex: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .column {
+        flex: 100%;
+    }
+}
